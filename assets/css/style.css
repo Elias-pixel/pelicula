@@ -1,0 +1,113 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    background-color: white;
+    color: rgb(146, 27, 27);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 1000px;
+    margin: -1% auto auto auto;
+}
+
+.header{
+    height: 100%;
+    width: 100%;
+    grid-column: 1/4;
+    background-size: cover;
+    background-image: url(../img/john-wick-asesinatos.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.header h1{
+    float: left;
+    color: white;
+    background: black;
+    padding: 3px 10px 3px 10px;
+    border-radius: 15px;
+    font-style: oblique;
+    font-size: 55px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.menu{
+    overflow: hidden;
+    grid-column: 1/4;
+    background-color: rgb(29, 28, 28);
+    font-size: 30px;
+}
+
+.menu li{
+    grid-column: 1/4;
+    align-items: center;
+    margin-right: 30px;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.Home{
+    height: 100px;
+    width: 100px;
+    grid-column: 4/4;
+    float: right;
+    margin-right: 15px;
+    margin-bottom: -6px;
+    margin-top: -20px;
+    text-decoration: none;
+    color: black;
+    border-radius: 50px;
+}
+
+.relleno{
+    grid-column: 1/4;
+}
+
+.SinopText p{
+    padding: 0% 10% 0% 10%;
+}
+
+.ReseñText h4{
+    padding: 0% 0% 0% 15%;
+    color:red;
+    background-color: bl;
+}
+
+.ReseñText p{
+    padding: 0% 20% 0% 18%;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer{
+    grid-column: 1/4;
+    background-color: black;
+    color: white;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+h3{
+    color: rgb(50, 82, 70);
+    padding: 0% 0% 0% 7%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+h3{
+    color: rgb(50, 82, 70);
+    padding: 0% 0% 0% 7%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
